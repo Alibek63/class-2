@@ -1,0 +1,158 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* First div class */
+.container {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 15px;
+    width: 80%;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+
+/* Second div class */
+.box {
+    border: 3px dashed #3498db;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+/* Third div class */
+.card {
+    border: 1px solid #f39c12;
+    padding: 10px;
+    margin: 20px auto;
+    height: 100px;
+    width: 50%;
+    display: block;
+    background-color: #ecf0f1;
+    text-align: center;
+    font-size: 18px;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+h2, h3, h4 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Main Content Area */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Custom Div Classes */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: #e74c3c;
+    padding: 20px;
+    border: 2px solid #c0392b;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.box2 {
+    background-color: #3498db;
+    padding: 20px;
+    border: 3px dashed #2980b9;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.box3 {
+    background-color: #2ecc71;
+    padding: 20px;
+    border: 2px solid #27ae60;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
